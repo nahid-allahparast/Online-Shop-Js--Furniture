@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/all.css" />
+    <title>Decor Market</title>
+  </head>
+  <body>
+    <!------------------------------------------------------- nav bar ------------------------------------------------->
+    <nav><div class="nav-bar">
+      <div class="menu-icon"><span >
+        <i class="fas fa-bars"></i>
+        </span>
+        <h2>Decor Market</h2>
+      </div>
+      <div class='nav-ability'>
+        <form action="">
+          <input class="search-box" type="text" placeholder="Search Product ...">
+          <i class="fas fa-search"></i>
+        </form>
+        <span class="user"><i class="fas fa-user"></i></span>
+        <span class="cart-btn">
+          <i class="fas fa-shopping-cart"></i>
+          <span class="cart-items" >0</span>
+        </span> 
+      </div>
+      
+       
+    </div>
+  </nav>
+      
+
+    <!---------------------------------------------------- products ----------------------------------------------->
+
+    <div class="container">
+      <h2>Product List</h2>
+
+      <div class="products">
+        <!-- <section class="product">
+          <figure>
+            <img src="./images/p28_large.jpg" alt="" />
+          </figure>
+          <figcaption>
+            <p>Product Title</p>
+            <p>Price:$</p>
+          </figcaption>
+          <div class="add-to-cart">
+            <button ><i class="fas fa-cart-plus"></i></button>
+          </div>
+        </section> -->
+    </div>
+
+    <!---------------------------------------------------------------- cart modal --------------------------------------->
+
+    <section class="cart-container">
+      <div class="back-drop"></div>
+
+      <div class="cart">
+        <i class="fas fa-times close-cart-icon"></i>
+        <h4>Your Cart</h4>
+        <div class="cart-content">
+          <!-- <div class="cart-item">
+            <figure>
+              <img src="./images/p28_large.jpg" alt="" />
+            </figure>
+            <figcaption>
+              <h5>title product</h5>
+              <h5>180$</h5>
+            </figcaption>
+            <div class="cart-contoroller">
+              <span class="increase"><i class="fas fa-angle-up"></i></span>
+              <span class="number-Product">2</span>
+              <span class="dicrese"><i class="fas fa-angle-down"></i></span>
+            </div>
+            <span  class="remove-cart-item"><i class="far fa-trash-alt"></i></span>
+          </div> -->
+        </div>
+
+        <div class="cart-footer">
+          <span class="total-price">total price:</span>
+          <button class="clear-cart">Clear Cart</button>
+          <button class="confirm-cart">Confirm</button>
+        </div>
+      </div>
+    </section>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
